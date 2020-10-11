@@ -27,10 +27,11 @@ class Scraper
   end 
   
   def make_courses 
-    
+    doc.css(".post").first.css("h2").text
   end 
   
   def print_courses 
+    
   end 
  
 end
